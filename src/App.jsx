@@ -17,7 +17,6 @@ function App() {
   
   useEffect(() => {
     if(notFound) {
-      console.log('girdimm');
       changeWaiterElement(loading, notFound);
     } else {
       changeWaiterElement(loading, loading)
